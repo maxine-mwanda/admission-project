@@ -13,6 +13,8 @@ struct Student{
     char eyeColor[50];
     bool isDisabled;
     char disabilities[50];
+    char house [50];
+    char stream [50];
 };
 
 
@@ -42,6 +44,12 @@ void admissionMenu (){
     } else{
         newStudent.isDisabled=false;
     }
+    printf("Which stream is the student joining?(North, South, East or West" );
+    scanf("%c", &temp);
+    scanf("%[^\n]", newStudent.stream);
+    printf("Which house will the student be placed in? (Elgon, Longonot, Everest or Kilimanjaro");
+    scanf("%c", &temp);
+    scanf("%[^\n]", newStudent.house);
 
     // save the details
     printf("\n\nYou entered this data : \nName : [%s]\nAge : [%d]\nGender : [%c]\nEye color : [%s]\n", newStudent.fullName, newStudent.age,

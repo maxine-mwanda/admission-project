@@ -74,6 +74,9 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="C:/Users/maxine/CLionProjects/project/Search for a student.h">
+			<Option target="project"/>
+		</Unit>
 		<Unit filename="C:/Users/maxine/CLionProjects/project/admission.h">
 			<Option target="project"/>
 		</Unit>
